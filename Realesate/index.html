@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/x-icon" href="images/favicon/icons8-home-64.png">
   <script
-    nonce="a16c00db-86b6-4aeb-9d3b-9b6f5662eabb">(function (w, d) { !function (f, g, h, i) { f[h] = f[h] || {}; f[h].executed = []; f.zaraz = { deferred: [], listeners: [] }; f.zaraz.q = []; f.zaraz._f = function (j) { return function () { var k = Array.prototype.slice.call(arguments); f.zaraz.q.push({ m: j, a: k }) } }; for (const l of ["track", "set", "debug"]) f.zaraz[l] = f.zaraz._f(l); f.zaraz.init = () => { var m = g.getElementsByTagName(i)[0], n = g.createElement(i), o = g.getElementsByTagName("title")[0]; o && (f[h].t = g.getElementsByTagName("title")[0].text); f[h].x = Math.random(); f[h].w = f.screen.width; f[h].h = f.screen.height; f[h].j = f.innerHeight; f[h].e = f.innerWidth; f[h].l = f.location.href; f[h].r = g.referrer; f[h].k = f.screen.colorDepth; f[h].n = g.characterSet; f[h].o = (new Date).getTimezoneOffset(); if (f.dataLayer) for (const s of Object.entries(Object.entries(dataLayer).reduce(((t, u) => ({ ...t[1], ...u[1] }))))) zaraz.set(s[0], s[1], { scope: "page" }); f[h].q = []; for (; f.zaraz.q.length;) { const v = f.zaraz.q.shift(); f[h].q.push(v) } n.defer = !0; for (const w of [localStorage, sessionStorage]) Object.keys(w || {}).filter((y => y.startsWith("_zaraz_"))).forEach((x => { try { f[h]["z_" + x.slice(7)] = JSON.parse(w.getItem(x)) } catch { f[h]["z_" + x.slice(7)] = w.getItem(x) } })); n.referrerPolicy = "origin"; n.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(f[h]))); m.parentNode.insertBefore(n, m) };["complete", "interactive"].includes(g.readyState) ? zaraz.init() : f.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+    nonce="a16c00db-86b6-4aeb-9d3b-9b6f5662eabb">(function (w, d) { !function (f, g, h, i) { f[h] = f[h] || {}; f[h].executed = []; f.zaraz = { deferred: [], listeners: [] }; f.zaraz.q = []; f.zaraz._f = function (j) { return function () { var k = Array.prototype.slice.call(arguments); f.zaraz.q.push({ m: j, a: k }) } }; for (const l of ["track", "set", "debug"]) f.zaraz[l] = f.zaraz._f(l); f.zaraz.init = () => { var m = g.getElementsByTagName(i)[0], n = g.createElement(i), o = g.getElementsByTagName("title")[0]; o && (f[h].t = g.getElementsByTagName("title")[0].text); f[h].x = Math.random(); f[h].w = f.screen.width; f[h].h = f.screen.height; f[h].j = f.innerHeight; f[h].e = f.innerWidth; f[h].l = f.location.href; f[h].r = g.referrer; f[h].k = f.screen.colorDepth; f[h].n = g.characterSet; f[h].o = (new Date).getTimezoneOffset(); if (f.dataLayer) for (const s of Object.entries(Object.entries(dataLayer).reduce(((t, u) => ({ ...t[1], ...u[1] }))))) zaraz.set(s[0], s[1], { scope: "page" }); f[h].q = []; for (; f.zaraz.q.length;) { const v = f.zaraz.q.shift(); f[h].q.push(v) } n.defer = !0; for (const w of [localStorage, sessionStorage]) Object.keys(w || {}).filter((y => y.startsWith("_zaraz_"))).forEach((x => { try { f[h]["z_" + x.slice(7)] = JSON.parse(w.getItem(x)) } catch { f[h]["z_" + x.slice(7)] = w.getItem(x) } })); n.referrerPolicy = "origin"; n.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(f[h]))); m.parentNode.insertBefore(n, m) };["complete", "interactive"].includes(g.readyState) ? zaraz.init() : f.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document); </script>
 </head>
 
 <body>
@@ -37,21 +37,19 @@
         <ul class="navbar-nav ">
           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-          <li class="nav-item"><a href="classifieds.html" class="nav-link">Classifieds</a></li>
-          <div class="dropdown" style="padding-top: 11px;  font-size: large;">
+          <li class="nav-item"><a href="classifieds.html" class="nav-link">Agents</a></li>
+          <li class="dropdown" style="padding-top: 11px;" >
             <a href="properties.html" class="btn btn-lg" role="button" aria-pressed="true">Plots and Fields</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
               <button class="dropdown-item" type="button">Buy</button>
               <button class="dropdown-item" type="button">Sell</button>
               <button class="dropdown-item" type="button">Lease</button>
             </div>
-          </div>
+          </li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
         </ul>
       </div>
-      <div class="signup">
-      </div>
-    </div>
+      
     </div>
   </nav>
 
@@ -208,8 +206,8 @@
     </div>
   </section>
   <section class="ftco-section ftco-degree-bg services-section img mx-md-5"
-    style="background-image: url(images/bg_2.jpg);">
-    <div class="overlay"></div>
+    style="background-image: url(images/bg_2.jpg); border-top-left-radius: 10px; border-top-right-radius:10px">
+    <div class="overlay" style="border-top-left-radius: 10px; "></div>
     <div class="container">
       <div class="row justify-content-start mb-5">
         <div class="col-md-6 text-center heading-section heading-section-white ftco-animate">
@@ -265,10 +263,10 @@
     <div class="container">
       <div class="row no-gutters">
         <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center"
-          style="background-image: url(images/about.jpg);">
+          style="background-image: url(images/about.jpg); border-radius: 10px;">
         </div>
-        <div class="col-md-6 wrap-about py-md-5 ftco-animate">
-          <div class="heading-section p-md-5">
+        <div class="col-md-6 wrap-about py-md-5 ftco-animate" >
+          <div class="heading-section p-md-5" style="border-style: groove; border-radius: 10px; border-color: #007bff;">
             <h2 class="mb-4">We Put People First.</h2>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
               paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
@@ -338,7 +336,7 @@
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
-              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg'); border-radius: 10px;">
               </a>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
@@ -353,7 +351,7 @@
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
-              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');">
+              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');border-radius: 10px;">
               </a>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
@@ -368,7 +366,7 @@
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
-              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_3.jpg');">
+              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_3.jpg');border-radius: 10px;">
               </a>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
@@ -383,7 +381,7 @@
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
-              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');">
+              <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');border-radius: 10px;">
               </a>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             </div>
