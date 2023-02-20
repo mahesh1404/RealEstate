@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: #222;
+        font-family: poppins;
+        color: #fff;
+    }
+    .services{
+        width: 1300px;
+        padding: 30px 60px;
+        margin: auto;
+    }
+    .services h1{
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        font-weight: 600;
+    }
+    .servcies h1:after{
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 3px;
+        background-color: #fff;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card{
+        width: calc(34% - 22px);
+        background: #f2f2f2;
+        color: #333;
+        padding: 40px 12px;
+        margin: 0 30px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s;
+        position: relative;
+    }
+    .sbox i{
+        font-size: 36px;
+        border: 1px solid rgba(0,0,0,0.5);
+        border-radius: 50%;
+        padding: 15px;
+        transition: 0.5s;
+    }
+    .sbox h3{
+        font-size: 24px
+    }
+    .sbox p{
+        margin: 20px 0;
+    }
+    .sbox a{
+        text-decoration: none;
+        color:#fff;
+        font-size: 16px;
+        font-weight: 500;
+        background: #333;
+        padding: 10px 15px;
+        border-radius: 15px;
+        transition: 0.5s;
+        margin: 20px 0;
+    }
+    .sbox a:hover{
+        background: transparent;
+        border: 1px solid #333;
+        transform: scale(1.2);
+        background: rgb(0, 184, 148);
+    }
+    .card:hover .sbox i{
+        background: rgb(0, 184, 148);
+        color:#fff ;
+        border-color: rgb(0, 184, 148);
+    }
+    .card:after{
+        content: '';
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0,0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .card:hover:after{
+        transform: rotate(13deg);
+        background-color: rgb(0, 184, 148);
+    }
+    </style>
+</head>
+<body>
+    <div class="services">
+        <h1>Our Services</h1>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab aut maiores animi odit eos provident dolorum velit. 
+                        Omnis soluta eligendi ut nostrum consectetur assumenda? Aperiam laborum su</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab aut maiores animi odit eos provident dolorum velit. 
+                        Omnis soluta eligendi ut nostrum consectetur assumenda? Aperiam laborum su</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Graphic Designing</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab aut maiores animi odit eos provident dolorum velit. 
+                        Omnis soluta eligendi ut nostrum consectetur assumenda? Aperiam laborum su</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

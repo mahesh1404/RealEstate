@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">	
+<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap Min CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+		<!-- IcoFont Min CSS -->
+		<link rel="stylesheet" href="assets/css/icofont.min.css">
+		<!-- Meanmenu Min CSS -->
+		<link rel="stylesheet" href="assets/css/meanmenu.css">
+		<!-- Magnific Popup Min CSS -->
+		<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+		<!-- Owl Carousel Min CSS -->
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<!-- NiceSelect Min CSS -->
+		<link rel="stylesheet" href="assets/css/nice-select.css">
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/customstyle.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/customstyle.css">
+		<meta name="description" content="">
+		<meta title="title" content="" />
+		<meta name="keywords" content="online b2b flight booking portal,">
+		<meta name="author" content="websbeetle">
+		<meta name="copyright" content="websbeetle">
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css">		
+		<title>Prabal || Home</title>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153067337-1"></script>
+		<script>
+		 window.dataLayer = window.dataLayer || [];
+		 function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
+
+		 gtag('config', 'UA-153067337-1');
+		</script>
+	</head>
+	<body>
+		<!-- Start Preloader Area -->
+       <!-- <div class="preloader-area">
+            <div class="lds-hourglass"></div>
+        </div>-->
+        <!-- End Preloader Area -->
+		<!-- Start Navbar Area -->
+		<?php require_once("inc/header.php");?>
+		<!-- End Navbar Area -->
+		<!-- Start Sidebar Modal -->
+		<?php require_once("inc/sidebar.php");?>
+		<!-- End Sidebar Modal -->
+		<!-- Start Startup Main Banner -->
+		<div class="home-slides startup-home">
+			<div class="main-banner startup-bg1">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-7 col-md-12">
+									<div class="hero-content">
+										<h1>Hello! My Name Is <font color="#13c4a1">"PRABAL"</font></h1>
+										<p>Prabal Solutions is an emerging recruitment firm specializing in talent-hiring solutions for a variety of sectors in Bangalore..</p>
+										<h2 style="color:#FFFFFF">Thousands Of Businesses Already <font color="#13c4a1">Trust Me.</font></h3>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-12">
+									<div class="startup-image">
+										<img src="assets/img/startup-shape/board.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="board">
+										<img src="assets/img/startup-shape/chart1.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="chart1">
+										<img src="assets/img/startup-shape/chart2.png" class="wow fadeInLeft" data-wow-delay="0.6s" alt="chart2">
+										<img src="assets/img/startup-shape/check-mark.png" class="wow zoomIn" data-wow-delay="0.6s" alt="check-mark">
+										<img src="assets/img/startup-shape/girl1.png" class="wow bounceIn" data-wow-delay="0.6s" alt="girl1">
+										<img src="assets/img/startup-shape/girl2.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="girl2">
+										<img src="assets/img/startup-shape/line.png" class="wow zoomIn" data-wow-delay="0.6s" alt="line">
+										<img src="assets/img/startup-shape/man.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="man">
+										<img src="assets/img/startup-shape/progress.png" class="wow rotateIn" data-wow-delay="0.6s" alt="progress">
+										<img src="assets/img/startup-shape/table.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="table">
+										<img src="assets/img/startup-shape/main-image.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="main-image">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-gray shape-1"></div>
+				<div class="shape1"><img src="assets/img/shape1.png" alt="img"></div>
+				<div class="shape2"><img src="assets/img/shape2.png" alt="img"></div>
+				<div class="shape3"><img src="assets/img/shape3.png" alt="img"></div>
+				<div class="shape6"><img src="assets/img/shape6.png" alt="img"></div>
+				<div class="shape8 rotateme"><img src="assets/img/shape8.svg" alt="shape"></div>
+				<div class="shape9"><img src="assets/img/shape9.svg" alt="shape"></div>
+			</div>
+			<div class="main-banner startup-bg2">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-7 col-md-12">
+									<div class="hero-content">
+										<h1>With the help of  <font color="#13c4a1">Prabal Services,</font></h1>
+										<p>you can achieve your target job while saving time and money.</p>
+										<a href="about_us.php" class="btn btn-primary">Get Started</a>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-12">
+									<div class="startup-image">
+										<img src="assets/img/startup-shape/board.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="board">
+										<img src="assets/img/startup-shape/chart1.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="chart1">
+										<img src="assets/img/startup-shape/chart2.png" class="wow fadeInLeft" data-wow-delay="0.6s" alt="chart2">
+										<img src="assets/img/startup-shape/check-mark.png" class="wow zoomIn" data-wow-delay="0.6s" alt="check-mark">
+										<img src="assets/img/startup-shape/girl1.png" class="wow bounceIn" data-wow-delay="0.6s" alt="girl1">
+										<img src="assets/img/startup-shape/girl2.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="girl2">
+										<img src="assets/img/startup-shape/line.png" class="wow zoomIn" data-wow-delay="0.6s" alt="line">
+										<img src="assets/img/startup-shape/man.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="man">
+										<img src="assets/img/startup-shape/progress.png" class="wow rotateIn" data-wow-delay="0.6s" alt="progress">
+										<img src="assets/img/startup-shape/table.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="table">
+										<img src="assets/img/startup-shape/main-image.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="main-image">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-gray shape-1"></div>
+				<div class="shape1"><img src="assets/img/shape1.png" alt="img"></div>
+				<div class="shape2"><img src="assets/img/shape2.png" alt="img"></div>
+				<div class="shape3"><img src="assets/img/shape3.png" alt="img"></div>
+				<div class="shape6"><img src="assets/img/shape6.png" alt="img"></div>
+				<div class="shape8 rotateme"><img src="assets/img/shape8.svg" alt="shape"></div>
+				<div class="shape9"><img src="assets/img/shape9.svg" alt="shape"></div>
+			</div>
+			<div class="main-banner startup-bg3">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-7 col-md-12">
+									<div class="hero-content">
+										<h1>We're all  <font color="#13c4a1">about strategy! </font></h1>
+										<p>Prabal Solutions does not only talk the talk, We also walk the walk.</p>
+										<a href="about_us.php" class="btn btn-primary">Get Started</a>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-12">
+									<div class="startup-image">
+										<div class="startup-image">
+											<img src="assets/img/startup-shape/board.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="board">
+											<img src="assets/img/startup-shape/chart1.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="chart1">
+											<img src="assets/img/startup-shape/chart2.png" class="wow fadeInLeft" data-wow-delay="0.6s" alt="chart2">
+											<img src="assets/img/startup-shape/check-mark.png" class="wow zoomIn" data-wow-delay="0.6s" alt="check-mark">
+											<img src="assets/img/startup-shape/girl1.png" class="wow bounceIn" data-wow-delay="0.6s" alt="girl1">
+											<img src="assets/img/startup-shape/girl2.png" class="wow fadeInDown" data-wow-delay="0.6s" alt="girl2">
+											<img src="assets/img/startup-shape/line.png" class="wow zoomIn" data-wow-delay="0.6s" alt="line">
+											<img src="assets/img/startup-shape/man.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="man">
+											<img src="assets/img/startup-shape/progress.png" class="wow rotateIn" data-wow-delay="0.6s" alt="progress">
+											<img src="assets/img/startup-shape/table.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="table">
+											<img src="assets/img/startup-shape/main-image.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="main-image">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-gray shape-1"></div>
+				<div class="shape1"><img src="assets/img/shape1.png" alt="img"></div>
+				<div class="shape2"><img src="assets/img/shape2.png" alt="img"></div>
+				<div class="shape3"><img src="assets/img/shape3.png" alt="img"></div>
+				<div class="shape6"><img src="assets/img/shape6.png" alt="img"></div>
+				<div class="shape8 rotateme"><img src="assets/img/shape8.svg" alt="shape"></div>
+				<div class="shape9"><img src="assets/img/shape9.svg" alt="shape"></div>
+			</div>
+		</div>
+        <!-- End Startup Main Banner -->
+        
+		<!-- Start Features Area -->
+		<section class="features-area startup-features ptb-100">
+			<div class="container">
+				<div class="row h-100 justify-content-center align-items-center">
+					<div class="col-lg-7 col-md-12">
+						<div class="row">
+							<img src="assets/images/home.gif" alt="image">
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-12">
+						<div class="features-holder-content">
+							<div class="section-title">
+								<h2><font color="#13c4a1">WHO WE </font> ARE</h2>
+								<div class="bar"></div>
+								<p class="text_align"><strong>We are a growing Talent-Solution provider</strong></p>
+								<p class="text_align"><strong>PRABAL Solutions</strong> is a multi-service company providing a range of cost-effective human resource and management solutions to help enterprises take their businesses to a higher level. We aren't just another service provider; We're also your strategic business partner and advisor. For us, our end goal is to ensure that your business has positioned itself to grow and succeed in the competitive market. This is done by having the right skills, talents, and strategies in place.</p>
+							</div>
+							<a href="#" class="btn btn-primary">Our Services</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="features-inner-area">
+				<div class="container">
+					<div class="row h-100 justify-content-center align-items-center">
+						<div class="col-lg-6 col-md-12">
+							<div class="features-holder-content">
+								<div class="section-title">
+									<h2><font color="#13c4a1">WHAT </font> WE DO</h2>
+									<div class="bar"></div>
+									<p class="text_align"><strong>All of our services are tailored to meet your company’s specific needs, both in terms of approach and technology.</strong></p>
+									<p class="text_align">
+									We accommodate a variety of things and make sure that the tasks involved in completing them are appropriately balanced for you. We've managed to do this by using technology to help us provide innovative solutions for your main hiring needs
+									</p>
+								</div>
+								<div class="overview-box" style="pading-left:20px;">
+									<div class=" overview-content">
+											<h4> OUR SERVICES  :</h4>
+										<ul>
+											<li>Permanent Staffing</li>
+											<li>Contract Staffing</li>
+											<li>Contract to Hiring</li>
+											
+										</ul>
+										
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="features-image">
+							<img src="assets/images/wat_we_do.gif" alt="image">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="shape7"><img src="assets/img/shape7.png" alt="shape"></div>
+			<div class="shape3"><img src="assets/img/shape3.png" alt="img"></div>
+			<div class="bg-gray shape-1"></div>
+			<div class="shape6"><img src="assets/img/shape6.png" alt="img"></div>
+			<div class="shape8 rotateme"><img src="assets/img/shape8.svg" alt="shape"></div>
+			<div class="shape9"><img src="assets/img/shape9.svg" alt="shape"></div>
+			<div class="shape10"><img src="assets/img/shape10.svg" alt="shape"></div>
+			<div class="shape11 rotateme"><img src="assets/img/shape11.svg" alt="shape"></div>
+		</section>
+		<!-- End Features Area -->
+		<!-- Start Overview Area -->
+		<section class="overview-section ptb-100">
+			<div class="container">
+				<div class="overview-box">
+					<div class="row h-100 justify-content-center align-items-center">
+						<div class="col-lg-6 col-md-6 overview-img">
+							<img src="assets/images/why-choose-us.gif" alt="image">
+						</div>
+						<div class="col-lg-6 col-md-6 overview-content">
+							<div class="icon">
+								<i class="icofont-power"></i>
+							</div>
+							<h3>WHY <font color="#13c4a1">CHOOSE US</font></h3>
+							<div class="left1" style="float:left;">
+							<ul>
+								<li>
+									We believe in custom-made solutions. This is why when it comes to our recruitment plans, we look at every project and make sure that the role we are offering will help not just your company but also aid our own business in some way or another. 
+								</li>
+								<li>Candidates at our company work on meaningful projects that transform businesses while they themselves develop into even more effective professionals during their time here with us. </li>
+								<li>We believe in custom-made solutions. This is why when it comes to our recruitment plans, we look at every project keenly and make sure that the role we are offering will not just your company but also aid our own business in some way or another.</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="overview-box">
+					<div class="row h-100 justify-content-center align-items-center">
+						<div class="col-lg-6 col-md-6 overview-content">
+							<div class="icon">
+								<i class="icofont-share-alt"></i>
+							</div>
+							<h3>WHAT SETS US APART</h3>
+							<p class="text_align"><b>At PRABAL Solutions we pride ourselves on our core values which are:</b></p>
+							
+							<div class="left1" style="float:left;">
+							<ul>
+								<li><b>Our Swiftness : </b></li>
+							</ul>
+							<p class="text_align">Our clients know, that they can count on us around the clock to hire the right candidate for their business.</p>
+							<ul>
+								<li><b>Our Service :</b> </li>
+							</ul>
+							<p class="text_align">For us, nothing is more important than providing exceptional customer service to our clients and candidates.</p>
+							<ul>
+								<li><b>Our Insights : </b></li>
+							</ul>
+							<p class="text_align">The key to our success is both the knowledge of the sectors we work in, as well as our expertise in staffing. Our specialist consultants understand the complexities across each of our wide-ranging sectors.</p>
+							
+							</div>
+
+							
+						</div>
+						<div class="col-lg-6 col-md-6 overview-img">
+							<img src="assets/images/set_apart.gif" width="100%" alt="image">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="shape7"><img src="assets/img/shape7.png" alt="shape"></div>
+			<div class="shape3"><img src="assets/img/shape3.png" alt="img"></div>
+			<div class="bg-gray shape-1"></div>
+			<div class="shape6"><img src="assets/img/shape6.png" alt="img"></div>
+			<div class="shape8 rotateme"><img src="assets/img/shape8.svg" alt="shape"></div>
+			<div class="shape9"><img src="assets/img/shape9.svg" alt="shape"></div>
+			<div class="shape10"><img src="assets/img/shape10.svg" alt="shape"></div>
+			<div class="shape11 rotateme"><img src="assets/img/shape11.svg" alt="shape"></div>
+		</section>
+		<!-- End Overview Area -->
+        <!-- Start CTA Area -->
+		<div class="cta-area">
+			<div class="container">
+				<div class="row h-100 justify-content-center align-items-center">
+					<div class="col-lg-7">
+						<p>Do more on the web, with a fast and secure browser!</p>
+					</div>
+					<div class="col-lg-5 text-right">
+						<a href="#" class="btn btn-primary">Take a Test Drive</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End CTA Area -->
+		<!-- Start Feedback Area -->
+		<section class="feedback-area ptb-100 bg-gray">
+			<div class="container">
+				<div class="section-title">
+					<h2>Testimonials</h2>
+					<div class="bar"></div>
+					<p>You Can See Our Clients Feedback What You Say?</p>
+				</div>
+				<div class="row">
+					<div class="feedback-slides">
+						<div class="col-lg-12">
+							<div class="single-feedback-box">
+								<div class="client-info">
+									<img src="assets/img/client.png" alt="client">
+									<h3>Arun</h3>
+									<span>Student</span>
+								</div>
+								<p class="text_align">
+								Great culture, value for employees, perks, empathetic management, meritocratic performance appraisals(depends on teams a little). Flexibility in working hours, style and location
+
+
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="single-feedback-box">
+								<div class="client-info">
+									<img src="assets/img/client.png" alt="client">
+									<h3>Shilpa</h3>
+									<span>Student</span>
+								</div>
+								<p class="text_align">
+								Feeling Good and learn what is required for the process to work and responsibilities regular awareness on company policies and regulations I feel proud to be a employee
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="single-feedback-box">
+								<div class="client-info">
+									<img src="assets/img/client.png" alt="client">
+									<h3>Harini</h3>
+									<span>Student</span>
+								</div>
+								<p class="text_align">
+								Good work environment and
+Culture. Teammates are supportive and the
+Management is transparent. There is a huge cafeteria and gaming arcade for chilling company policies are good.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg class="svg-feedback-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<path d="M0,70 C30,130 70,50 100,70 L100,100 0,100 Z" fill="#ffffff"/>
+			</svg>
+		</section>
+		<!-- End Feedback Area -->
+		<!-- Start Get Started Area -->
+		<?php require_once("inc/request_quote.php");?>
+		<!-- End Get Started Area -->
+		<!-- Start Platform Connect -->
+		<section class="platform-connect ptb-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<h2>Interact With Your Users On Every Single Platform</h2>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="box">
+							<img src="assets/img/mailchimp.png" alt="mailchimp">
+
+							<h3>Mail Chimp</h3>
+							<span>Send Mail</span>
+
+							<i class="icofont-bubble-right"></i>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="box">
+							<img src="assets/img/slack.png" alt="mailchimp">
+
+							<h3>Slack</h3>
+							<span>Messaging</span>
+
+							<i class="icofont-bubble-right"></i>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="box">
+							<img src="assets/img/twitter.png" alt="mailchimp">
+
+							<h3>Twitter</h3>
+							<span>Twitter Feed</span>
+
+							<i class="icofont-bubble-right"></i>
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<a href="#" class="box">
+							<img src="assets/img/instagram.png" alt="mailchimp">
+							<h3>Instagram</h3>
+							<span>News Feed</span>
+							<i class="icofont-bubble-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Platform Connect -->
+		<!-- Start Footer Area -->
+		<?php require_once("inc/footer.php");?>
+		<!-- End Footer Area -->
+		<!-- Back Top top -->
+        <div class="back-to-top">Top</div>
+        <!-- End Back Top top -->
+		<!-- Jquery Min JS -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Popper Min JS -->
+		<script src="assets/js/popper.min.js"></script>
+		<!-- Bootstrap Min JS -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Canvas Min JS -->
+		<script src="assets/js/canvas.min.js"></script>
+		<!-- Meanmenu Min JS -->
+		<script src="assets/js/jquery.meanmenu.min.js"></script>
+		<!-- WOW Min JS -->
+		<script src="assets/js/wow.min.js"></script>
+		<!-- Tilt Min JS -->
+		<script src="assets/js/tilt.jquery.min.js"></script>
+		<!-- Magnific Popup Min JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Owl Carousel Min JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+		<!-- Waypoints Min Js -->
+        <script src="assets/js/waypoints.min.js"></script>
+        <!-- Jquery CounterUp Min JS -->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- NiceSelect Min Js -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+		<!-- ajaxChimp Min JS -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Form Validator Min JS -->
+        <script src="assets/js/form-validator.min.js"></script>
+        <!-- Contact Form Min JS -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+	</body>
+</html>

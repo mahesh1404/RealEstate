@@ -1,0 +1,32 @@
+.text_align{
+	text-align:justify !important;
+}
+.text_center{
+	text-align:center !important;
+}
+.readmore_button
+{
+	padding: 5px 9px !important;
+	text-transform: none !important;
+}
+.service_title{
+	font-size: 22px !important;
+}
+.blog_title{
+	font-size:15px !important;
+}
+.contact_height{
+	height: 288px !important;
+}
+.contact_heading{
+	font-size:48px !important;
+}
+.contact_address{
+	margin-top: 5px !important;
+}
+.arrow_color{
+	color:#13c4a1 ;
+}
+.button_text{
+   text-transform: none !important;
+}
