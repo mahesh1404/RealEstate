@@ -1431,7 +1431,7 @@ h6 {
 .header-top {
     background: #04091e;
     font-size: 12px;
-    padding: 8px
+    /*padding: 8px*/
 }
 
 .header-top a {
@@ -2459,8 +2459,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-banner {
-    background: url(../img/top-banner.jpg) right no-repeat;
-    background-size: cover
+    background: url(../img/banner-bg.jpg) right no-repeat;
+    background-size: cover;
+    height: auto;
 }
 
 .about-content {
