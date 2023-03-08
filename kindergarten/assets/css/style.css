@@ -1064,7 +1064,7 @@ li {
 
 .slider-area,
 .slider-area2 {
-    background-image: url(../img/gallery/school_child20.jpg);
+    background-image: url(../img/hero/My\ project1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center
@@ -1072,7 +1072,7 @@ li {
 
 .slider-area.slider-area2,
 .slider-area2.slider-area2 {
-    background-image: url(../img/hero/hero2.png)
+    background-image: url(../img/hero/My\ project.jpg)
 }
 
 .slider-area .hero__caption,
